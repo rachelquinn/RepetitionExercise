@@ -3,29 +3,45 @@
 
 body {
   margin: 0;
+  background-color: #b9b4b5;
 }
 
 header {
+  background-image: url(../images/flag.jpg);
   margin: 0 auto;
   width: 1000px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 header h1 {
   text-align: center;
   margin: 0;
   padding-top: .25em;
+  color: #141237;
+  font-style:
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Alike', serif;
 }
 
 header h2 {
   text-align: center;
   margin: 0;
   padding-bottom: 1em;
+  color: #141237;
+  font-weight: bold;
+  font-family: 'Alike', serif;
 }
 
 h3 {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 5px;
+  color: #7e0f12;
+  font-weight: bold;
+  font-family: 'Alike', serif;
 }
 
 p {
@@ -38,10 +54,14 @@ nav {
   width: 1000px;
   padding: 5px 0;
   text-align: center;
+  color:  #141237;
+  border: #9D0609;
 }
 
 nav a {
   margin: 0 35px;
+  color:  #2A3178;
+  border: #9D0609;
 }
 
 .floatright {
@@ -53,4 +73,9 @@ nav a {
   margin: 0 auto;
   width: 1000px;
   padding: 5px 15px;
+  color: #2A3178;
+}
+
+ul {
+  list-style-image: url(../images/star.png);
 }
